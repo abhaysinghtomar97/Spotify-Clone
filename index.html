@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utilify.css">
+</head>
+
+<body>
+    <!-- <img src="logo.svg" height="20px" width="20px">
+      -->
+
+    <div class="container flex bg-black">
+
+        <!-- left box  -->
+        <div class="left  bg-black">
+            <div class="home bg-grey rounded m-2 p-1">
+                <div class="logo">
+                    <img class="invert" src="assets/logo.svg" alt="logo">
+                    <h2 >Spotify</h2>
+                </div>
+                <ul>
+                    <li><img class="invert" src="assets/home.svg" alt="home">Home </li>
+                    <li><img class="invert" src="assets/search.svg" alt="search">Search </li>
+                </ul>
+            </div>
+
+            <div class="library bg-grey rounded m-2 p-1">
+                <div class="heading">
+                    <img class="invert" src="assets/library.svg" alt="">
+                    <h2>Your Library</h2>
+                </div>
+
+                <div class="footer">
+
+                    <a href="#about" style="color: #aaa; ">About Us</a>
+                    <a href="#services" style="color: #aaa; ">Services</a>
+                    <a href="#contact" style="color: #aaa;">Contact</a>
+                    <a href="#privacy" style="color: #aaa;">Privacy Policy</a>
+                    <a href="#terms" style="color: #aaa;">Terms of Use</a>
+                    <a href="#faq" style="color: #aaa; ">FAQs</a>
+
+                </div>
+            </div>
+
+        </div>
+
+
+        <!-- right box  -->
+        <div class="right bg-grey rounded  p-1">
+            <div class="header rounded ">
+
+                <div class="nav">
+                    <img class="invert" width="24" height="24" src="assets/angle-left.svg">
+                    <img class="invert" width="24" height="24" src="assets/angle-right.svg">
+                </div>
+                <div class="buttons">
+                    <button class="signupbtn">Sin up</button>
+                    <button class="signinbtn">Sin in</button>
+                </div>
+            </div>
+            <div class="spotifyplaylists">
+                <h1> Spotify Playlist</h1>
+                <div class="cardcontainer">
+                    <div class="card ">
+                        <svg class="play " xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24"
+                            fill="white">
+                            <path
+                                d="M18.8906 12.846C18.5371 14.189 16.8667 15.138 13.5257 17.0361C10.296 18.8709 8.6812 19.7884 7.37983 19.4196C6.8418 19.2671 6.35159 18.9776 5.95624 18.5787C5 17.6139 5 15.7426 5 12C5 8.2574 5 6.3861 5.95624 5.42132C6.35159 5.02245 6.8418 4.73288 7.37983 4.58042C8.6812 4.21165 10.296 5.12907 13.5257 6.96393C16.8667 8.86197 18.5371 9.811 18.8906 11.154C19.0365 11.7084 19.0365 12.2916 18.8906 12.846Z"
+                                stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"></path>
+                        </svg>
+
+                        <img
+                            src="https://mosaic.scdn.co/640/ab67616d00001e025e01bb8b5c53989e6ab7a1a7ab67616d00001e025f3fcba817dfe0ec755c1627ab67616d00001e027254b31c41c2db42e80e1062ab67616d00001e02b9c46d2b8d5604c33cc578b7">
+                        <h2>My Fav</h2>
+                        <p>This contains all my fav songs </p>
+
+                    </div>
+                    <div class="card ">
+                        <svg class="play " xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24"
+                            fill="white">
+                            <path
+                                d="M18.8906 12.846C18.5371 14.189 16.8667 15.138 13.5257 17.0361C10.296 18.8709 8.6812 19.7884 7.37983 19.4196C6.8418 19.2671 6.35159 18.9776 5.95624 18.5787C5 17.6139 5 15.7426 5 12C5 8.2574 5 6.3861 5.95624 5.42132C6.35159 5.02245 6.8418 4.73288 7.37983 4.58042C8.6812 4.21165 10.296 5.12907 13.5257 6.96393C16.8667 8.86197 18.5371 9.811 18.8906 11.154C19.0365 11.7084 19.0365 12.2916 18.8906 12.846Z"
+                                stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"></path>
+                        </svg>
+
+                        <img
+                            src="https://mosaic.scdn.co/640/ab67616d00001e025e01bb8b5c53989e6ab7a1a7ab67616d00001e025f3fcba817dfe0ec755c1627ab67616d00001e027254b31c41c2db42e80e1062ab67616d00001e02b9c46d2b8d5604c33cc578b7">
+                        <h2>My Fav</h2>
+                        <p>This contains all my fav songs </p>
+
+                    </div>
+                    <div class="card ">
+                        <svg class="play " xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24"
+                            fill="white">
+                            <path
+                                d="M18.8906 12.846C18.5371 14.189 16.8667 15.138 13.5257 17.0361C10.296 18.8709 8.6812 19.7884 7.37983 19.4196C6.8418 19.2671 6.35159 18.9776 5.95624 18.5787C5 17.6139 5 15.7426 5 12C5 8.2574 5 6.3861 5.95624 5.42132C6.35159 5.02245 6.8418 4.73288 7.37983 4.58042C8.6812 4.21165 10.296 5.12907 13.5257 6.96393C16.8667 8.86197 18.5371 9.811 18.8906 11.154C19.0365 11.7084 19.0365 12.2916 18.8906 12.846Z"
+                                stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"></path>
+                        </svg>
+
+                        <img
+                            src="https://mosaic.scdn.co/640/ab67616d00001e025e01bb8b5c53989e6ab7a1a7ab67616d00001e025f3fcba817dfe0ec755c1627ab67616d00001e027254b31c41c2db42e80e1062ab67616d00001e02b9c46d2b8d5604c33cc578b7">
+                        <h2>My Fav</h2>
+                        <p>This contains all my fav songs </p>
+
+                    </div>
+                    <div class="card ">
+                        <svg class="play " xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24"
+                            fill="white">
+                            <path
+                                d="M18.8906 12.846C18.5371 14.189 16.8667 15.138 13.5257 17.0361C10.296 18.8709 8.6812 19.7884 7.37983 19.4196C6.8418 19.2671 6.35159 18.9776 5.95624 18.5787C5 17.6139 5 15.7426 5 12C5 8.2574 5 6.3861 5.95624 5.42132C6.35159 5.02245 6.8418 4.73288 7.37983 4.58042C8.6812 4.21165 10.296 5.12907 13.5257 6.96393C16.8667 8.86197 18.5371 9.811 18.8906 11.154C19.0365 11.7084 19.0365 12.2916 18.8906 12.846Z"
+                                stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"></path>
+                        </svg>
+
+                        <img
+                            src="https://mosaic.scdn.co/640/ab67616d00001e025e01bb8b5c53989e6ab7a1a7ab67616d00001e025f3fcba817dfe0ec755c1627ab67616d00001e027254b31c41c2db42e80e1062ab67616d00001e02b9c46d2b8d5604c33cc578b7">
+                        <h2>My Fav</h2>
+                        <p>This contains all my fav songs </p>
+
+                    </div>
+                    <div class="card ">
+                        <svg class="play " xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24"
+                            fill="white">
+                            <path
+                                d="M18.8906 12.846C18.5371 14.189 16.8667 15.138 13.5257 17.0361C10.296 18.8709 8.6812 19.7884 7.37983 19.4196C6.8418 19.2671 6.35159 18.9776 5.95624 18.5787C5 17.6139 5 15.7426 5 12C5 8.2574 5 6.3861 5.95624 5.42132C6.35159 5.02245 6.8418 4.73288 7.37983 4.58042C8.6812 4.21165 10.296 5.12907 13.5257 6.96393C16.8667 8.86197 18.5371 9.811 18.8906 11.154C19.0365 11.7084 19.0365 12.2916 18.8906 12.846Z"
+                                stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"></path>
+                        </svg>
+
+                        <img
+                            src="https://mosaic.scdn.co/640/ab67616d00001e025e01bb8b5c53989e6ab7a1a7ab67616d00001e025f3fcba817dfe0ec755c1627ab67616d00001e027254b31c41c2db42e80e1062ab67616d00001e02b9c46d2b8d5604c33cc578b7">
+                        <h2>My Fav</h2>
+                        <p>This contains all my fav songs </p>
+
+                    </div>
+                    <div class="card ">
+                        <svg class="play " xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24"
+                            fill="white">
+                            <path
+                                d="M18.8906 12.846C18.5371 14.189 16.8667 15.138 13.5257 17.0361C10.296 18.8709 8.6812 19.7884 7.37983 19.4196C6.8418 19.2671 6.35159 18.9776 5.95624 18.5787C5 17.6139 5 15.7426 5 12C5 8.2574 5 6.3861 5.95624 5.42132C6.35159 5.02245 6.8418 4.73288 7.37983 4.58042C8.6812 4.21165 10.296 5.12907 13.5257 6.96393C16.8667 8.86197 18.5371 9.811 18.8906 11.154C19.0365 11.7084 19.0365 12.2916 18.8906 12.846Z"
+                                stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"></path>
+                        </svg>
+
+                        <img
+                            src="https://mosaic.scdn.co/640/ab67616d00001e025e01bb8b5c53989e6ab7a1a7ab67616d00001e025f3fcba817dfe0ec755c1627ab67616d00001e027254b31c41c2db42e80e1062ab67616d00001e02b9c46d2b8d5604c33cc578b7">
+                        <h2>My Fav</h2>
+                        <p>This contains all my fav songs </p>
+
+                    </div>
+                    <div class="card ">
+                        <svg class="play " xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24"
+                            fill="white">
+                            <path
+                                d="M18.8906 12.846C18.5371 14.189 16.8667 15.138 13.5257 17.0361C10.296 18.8709 8.6812 19.7884 7.37983 19.4196C6.8418 19.2671 6.35159 18.9776 5.95624 18.5787C5 17.6139 5 15.7426 5 12C5 8.2574 5 6.3861 5.95624 5.42132C6.35159 5.02245 6.8418 4.73288 7.37983 4.58042C8.6812 4.21165 10.296 5.12907 13.5257 6.96393C16.8667 8.86197 18.5371 9.811 18.8906 11.154C19.0365 11.7084 19.0365 12.2916 18.8906 12.846Z"
+                                stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"></path>
+                        </svg>
+
+                        <img
+                            src="https://mosaic.scdn.co/640/ab67616d00001e025e01bb8b5c53989e6ab7a1a7ab67616d00001e025f3fcba817dfe0ec755c1627ab67616d00001e027254b31c41c2db42e80e1062ab67616d00001e02b9c46d2b8d5604c33cc578b7">
+                        <h2>My Fav</h2>
+                        <p>This contains all my fav songs </p>
+
+                    </div>
+                    <div class="card ">
+                        <svg class="play " xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24"
+                            fill="white">
+                            <path
+                                d="M18.8906 12.846C18.5371 14.189 16.8667 15.138 13.5257 17.0361C10.296 18.8709 8.6812 19.7884 7.37983 19.4196C6.8418 19.2671 6.35159 18.9776 5.95624 18.5787C5 17.6139 5 15.7426 5 12C5 8.2574 5 6.3861 5.95624 5.42132C6.35159 5.02245 6.8418 4.73288 7.37983 4.58042C8.6812 4.21165 10.296 5.12907 13.5257 6.96393C16.8667 8.86197 18.5371 9.811 18.8906 11.154C19.0365 11.7084 19.0365 12.2916 18.8906 12.846Z"
+                                stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"></path>
+                        </svg>
+
+                        <img
+                            src="https://mosaic.scdn.co/640/ab67616d00001e025e01bb8b5c53989e6ab7a1a7ab67616d00001e025f3fcba817dfe0ec755c1627ab67616d00001e027254b31c41c2db42e80e1062ab67616d00001e02b9c46d2b8d5604c33cc578b7">
+                        <h2>My Fav</h2>
+                        <p>This contains all my fav songs </p>
+
+                    </div>
+                    <div class="card ">
+                        <svg class="play " xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24"
+                            fill="white">
+                            <path
+                                d="M18.8906 12.846C18.5371 14.189 16.8667 15.138 13.5257 17.0361C10.296 18.8709 8.6812 19.7884 7.37983 19.4196C6.8418 19.2671 6.35159 18.9776 5.95624 18.5787C5 17.6139 5 15.7426 5 12C5 8.2574 5 6.3861 5.95624 5.42132C6.35159 5.02245 6.8418 4.73288 7.37983 4.58042C8.6812 4.21165 10.296 5.12907 13.5257 6.96393C16.8667 8.86197 18.5371 9.811 18.8906 11.154C19.0365 11.7084 19.0365 12.2916 18.8906 12.846Z"
+                                stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"></path>
+                        </svg>
+
+                        <img
+                            src="https://mosaic.scdn.co/640/ab67616d00001e025e01bb8b5c53989e6ab7a1a7ab67616d00001e025f3fcba817dfe0ec755c1627ab67616d00001e027254b31c41c2db42e80e1062ab67616d00001e02b9c46d2b8d5604c33cc578b7">
+                        <h2>My Fav</h2>
+                        <p>This contains all my fav songs </p>
+
+                    </div>
+                    <div class="card ">
+                        <svg class="play " xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24"
+                            fill="white">
+                            <path
+                                d="M18.8906 12.846C18.5371 14.189 16.8667 15.138 13.5257 17.0361C10.296 18.8709 8.6812 19.7884 7.37983 19.4196C6.8418 19.2671 6.35159 18.9776 5.95624 18.5787C5 17.6139 5 15.7426 5 12C5 8.2574 5 6.3861 5.95624 5.42132C6.35159 5.02245 6.8418 4.73288 7.37983 4.58042C8.6812 4.21165 10.296 5.12907 13.5257 6.96393C16.8667 8.86197 18.5371 9.811 18.8906 11.154C19.0365 11.7084 19.0365 12.2916 18.8906 12.846Z"
+                                stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"></path>
+                        </svg>
+
+                        <img
+                            src="https://mosaic.scdn.co/640/ab67616d00001e025e01bb8b5c53989e6ab7a1a7ab67616d00001e025f3fcba817dfe0ec755c1627ab67616d00001e027254b31c41c2db42e80e1062ab67616d00001e02b9c46d2b8d5604c33cc578b7">
+                        <h2>My Fav</h2>
+                        <p>This contains all my fav songs </p>
+
+                    </div>
+                    <div class="card ">
+                        <svg class="play " xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24"
+                            fill="white">
+                            <path
+                                d="M18.8906 12.846C18.5371 14.189 16.8667 15.138 13.5257 17.0361C10.296 18.8709 8.6812 19.7884 7.37983 19.4196C6.8418 19.2671 6.35159 18.9776 5.95624 18.5787C5 17.6139 5 15.7426 5 12C5 8.2574 5 6.3861 5.95624 5.42132C6.35159 5.02245 6.8418 4.73288 7.37983 4.58042C8.6812 4.21165 10.296 5.12907 13.5257 6.96393C16.8667 8.86197 18.5371 9.811 18.8906 11.154C19.0365 11.7084 19.0365 12.2916 18.8906 12.846Z"
+                                stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"></path>
+                        </svg>
+
+                        <img
+                            src="https://mosaic.scdn.co/640/ab67616d00001e025e01bb8b5c53989e6ab7a1a7ab67616d00001e025f3fcba817dfe0ec755c1627ab67616d00001e027254b31c41c2db42e80e1062ab67616d00001e02b9c46d2b8d5604c33cc578b7">
+                        <h2>My Fav</h2>
+                        <p>This contains all my fav songs </p>
+
+                    </div>
+                    <div class="card ">
+                        <svg class="play " xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24"
+                            fill="white">
+                            <path
+                                d="M18.8906 12.846C18.5371 14.189 16.8667 15.138 13.5257 17.0361C10.296 18.8709 8.6812 19.7884 7.37983 19.4196C6.8418 19.2671 6.35159 18.9776 5.95624 18.5787C5 17.6139 5 15.7426 5 12C5 8.2574 5 6.3861 5.95624 5.42132C6.35159 5.02245 6.8418 4.73288 7.37983 4.58042C8.6812 4.21165 10.296 5.12907 13.5257 6.96393C16.8667 8.86197 18.5371 9.811 18.8906 11.154C19.0365 11.7084 19.0365 12.2916 18.8906 12.846Z"
+                                stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"></path>
+                        </svg>
+
+                        <img
+                            src="https://mosaic.scdn.co/640/ab67616d00001e025e01bb8b5c53989e6ab7a1a7ab67616d00001e025f3fcba817dfe0ec755c1627ab67616d00001e027254b31c41c2db42e80e1062ab67616d00001e02b9c46d2b8d5604c33cc578b7">
+                        <h2>My Fav</h2>
+                        <p>This contains all my fav songs </p>
+
+                    </div>
+                    <div class="card ">
+                        <svg class="play " xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24"
+                            fill="white">
+                            <path
+                                d="M18.8906 12.846C18.5371 14.189 16.8667 15.138 13.5257 17.0361C10.296 18.8709 8.6812 19.7884 7.37983 19.4196C6.8418 19.2671 6.35159 18.9776 5.95624 18.5787C5 17.6139 5 15.7426 5 12C5 8.2574 5 6.3861 5.95624 5.42132C6.35159 5.02245 6.8418 4.73288 7.37983 4.58042C8.6812 4.21165 10.296 5.12907 13.5257 6.96393C16.8667 8.86197 18.5371 9.811 18.8906 11.154C19.0365 11.7084 19.0365 12.2916 18.8906 12.846Z"
+                                stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"></path>
+                        </svg>
+
+                        <img
+                            src="https://mosaic.scdn.co/640/ab67616d00001e025e01bb8b5c53989e6ab7a1a7ab67616d00001e025f3fcba817dfe0ec755c1627ab67616d00001e027254b31c41c2db42e80e1062ab67616d00001e02b9c46d2b8d5604c33cc578b7">
+                        <h2>My Fav</h2>
+                        <p>This contains all my fav songs </p>
+
+                    </div>
+                    <div class="card ">
+                        <svg class="play " xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24"
+                            fill="white">
+                            <path
+                                d="M18.8906 12.846C18.5371 14.189 16.8667 15.138 13.5257 17.0361C10.296 18.8709 8.6812 19.7884 7.37983 19.4196C6.8418 19.2671 6.35159 18.9776 5.95624 18.5787C5 17.6139 5 15.7426 5 12C5 8.2574 5 6.3861 5.95624 5.42132C6.35159 5.02245 6.8418 4.73288 7.37983 4.58042C8.6812 4.21165 10.296 5.12907 13.5257 6.96393C16.8667 8.86197 18.5371 9.811 18.8906 11.154C19.0365 11.7084 19.0365 12.2916 18.8906 12.846Z"
+                                stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"></path>
+                        </svg>
+
+                        <img
+                            src="https://mosaic.scdn.co/640/ab67616d00001e025e01bb8b5c53989e6ab7a1a7ab67616d00001e025f3fcba817dfe0ec755c1627ab67616d00001e027254b31c41c2db42e80e1062ab67616d00001e02b9c46d2b8d5604c33cc578b7">
+                        <h2>My Fav</h2>
+                        <p>This contains all my fav songs </p>
+
+                    </div>
+                    <div class="card ">
+                        <svg class="play " xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24"
+                            fill="white">
+                            <path
+                                d="M18.8906 12.846C18.5371 14.189 16.8667 15.138 13.5257 17.0361C10.296 18.8709 8.6812 19.7884 7.37983 19.4196C6.8418 19.2671 6.35159 18.9776 5.95624 18.5787C5 17.6139 5 15.7426 5 12C5 8.2574 5 6.3861 5.95624 5.42132C6.35159 5.02245 6.8418 4.73288 7.37983 4.58042C8.6812 4.21165 10.296 5.12907 13.5257 6.96393C16.8667 8.86197 18.5371 9.811 18.8906 11.154C19.0365 11.7084 19.0365 12.2916 18.8906 12.846Z"
+                                stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"></path>
+                        </svg>
+
+                        <img
+                            src="https://mosaic.scdn.co/640/ab67616d00001e025e01bb8b5c53989e6ab7a1a7ab67616d00001e025f3fcba817dfe0ec755c1627ab67616d00001e027254b31c41c2db42e80e1062ab67616d00001e02b9c46d2b8d5604c33cc578b7">
+                        <h2>My Fav</h2>
+                        <p>This contains all my fav songs </p>
+
+                    </div>
+                    <div class="card ">
+                        <svg class="play " xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24"
+                            fill="white">
+                            <path
+                                d="M18.8906 12.846C18.5371 14.189 16.8667 15.138 13.5257 17.0361C10.296 18.8709 8.6812 19.7884 7.37983 19.4196C6.8418 19.2671 6.35159 18.9776 5.95624 18.5787C5 17.6139 5 15.7426 5 12C5 8.2574 5 6.3861 5.95624 5.42132C6.35159 5.02245 6.8418 4.73288 7.37983 4.58042C8.6812 4.21165 10.296 5.12907 13.5257 6.96393C16.8667 8.86197 18.5371 9.811 18.8906 11.154C19.0365 11.7084 19.0365 12.2916 18.8906 12.846Z"
+                                stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"></path>
+                        </svg>
+
+                        <img
+                            src="https://mosaic.scdn.co/640/ab67616d00001e025e01bb8b5c53989e6ab7a1a7ab67616d00001e025f3fcba817dfe0ec755c1627ab67616d00001e027254b31c41c2db42e80e1062ab67616d00001e02b9c46d2b8d5604c33cc578b7">
+                        <h2>My Fav</h2>
+                        <p>This contains all my fav songs </p>
+
+                    </div>
+
+                </div>
+            </div>
+            
+            <div class="playbar">
+                <div class="songinfo">
+                    
+                </div>
+                <div class="songbuttons">
+                    <img src="assets/play.svg" height="20px" width="20px">
+                    <img src="assets/play.svg" height="20px" width="20px">
+                    <img src="assets/play.svg" height="20px" width="20px">
+                   
+                </div>
+                <div class="songtime">
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <script src="script.js">
+
+    </script>
+</body>
+
+</html>
