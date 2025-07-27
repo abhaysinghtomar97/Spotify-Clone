@@ -17,10 +17,10 @@
 
         <!-- left box  -->
         <div class="left  bg-black">
-            <div class="home bg-grey rounded m-2 p-1">
+            <div class="home bg-grey rounded m-2 p-1" onclick="chup()">
                 <div class="logo">
                     <img class="invert" src="assets/logo.svg" alt="logo">
-                    <h2 >Spotify</h2>
+                    <h2>Spotify</h2>
                 </div>
                 <ul>
                     <li><img class="invert" src="assets/home.svg" alt="home">Home </li>
@@ -32,6 +32,11 @@
                 <div class="heading">
                     <img class="invert" src="assets/library.svg" alt="">
                     <h2>Your Library</h2>
+                </div>
+                <div class="songlist">
+                    <ul>
+                        
+                    </ul>
                 </div>
 
                 <div class="footer">
@@ -57,7 +62,7 @@
                     <img class="invert" width="24" height="24" src="assets/angle-left.svg">
                     <img class="invert" width="24" height="24" src="assets/angle-right.svg">
                 </div>
-                <div class="buttons">
+                <div class="buttons" onclick="signin()">
                     <button class="signupbtn">Sin up</button>
                     <button class="signinbtn">Sin in</button>
                 </div>
@@ -292,16 +297,21 @@
 
                 </div>
             </div>
-            
-            <div class="playbar">
+
+            <div class="playbar invert ">
+                <div class="seekbar">
+                    <div class="circle">
+
+                    </div>
+                </div>
                 <div class="songinfo">
-                    
+
                 </div>
                 <div class="songbuttons">
+                    <img src="assets/play_previous.svg" height="20px" width="20px">
                     <img src="assets/play.svg" height="20px" width="20px">
-                    <img src="assets/play.svg" height="20px" width="20px">
-                    <img src="assets/play.svg" height="20px" width="20px">
-                   
+                    <img src="assets/play_next.svg" height="20px" width="20px">
+
                 </div>
                 <div class="songtime">
 
